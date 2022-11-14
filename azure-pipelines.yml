@@ -15,7 +15,7 @@ steps:
     versionSpec: '18.x'
   displayName: 'Install Node.js'
 
-- script: 
+- script: |
     npm install
     npx nx serve surveychimp-api:build:production
   displayName: 'npm install and build'
